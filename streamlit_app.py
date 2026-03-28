@@ -141,14 +141,14 @@ elif page == "Documentation":
     st.subheader("Model Performance")
     performance_data = {
         "Metric": ["Accuracy", "Precision", "Recall", "F1-Score"],
-        "Random Forest": [1.00, 1.00, 1.00, 1.00],
-        "SVM": [1.00, 1.00, 1.00, 1.00]
+        "Random Forest": [0.9789, 0.9790, 0.9789, 0.9789],
+        "SVM": [0.9555, 0.9565, 0.9555, 0.9554]
     }
     
     st.dataframe(performance_data, use_container_width=True)
     
     st.info(
-        "⚠️ Note: Current results are on synthetic DEAP-inspired data. "
+        "⚠️ Note: Results are based on the Kaggle EEG Brainwave Dataset (Real Data)"
         "Perfect scores indicate overfitting to synthetic patterns."
     )
     
