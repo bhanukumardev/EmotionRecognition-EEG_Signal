@@ -51,7 +51,7 @@ elif page == "About":
     st.header("📖 About the Project")
     
     st.subheader("Contributors")
-col1, col2, col3 = st.columns(3)
+    col1, col2, col3 = st.columns(3)
     with col1:
         st.markdown("**Bhanu Kumar Dev** (2328162)\n@bhanukumardev")
     with col2:
@@ -59,7 +59,7 @@ col1, col2, col3 = st.columns(3)
     with col3:
         st.markdown("**Aman Sinha** (2306096)\n@amansinha11-dev")
     
-    col1, col2, col3 = st.columns(3)
+        col1, col2, col3 = st.columns(3)
     with col1:
         st.markdown("**Ashish Yadav** (2328157)\n@astreladg")
     with col2:
