@@ -241,8 +241,10 @@ For a detailed description of experiments and testing, see `VALIDATION_REPORT.md
 
 - **Bhanu Kumar Dev** (@bhanukumardev)
 - **Adarsh Kumar** (@Adarshkumar0509)
+- **Aman Sinha** (@amansinha11-dev)
+- **Ashish Yadav** (@astreladg)
 - **Kanishka** (@catharsis02)
-
+- **Srijan** (@srijanisaDev)
 Contributions, feedback, and suggestions are welcome via issues and pull requests.
 
 ---
@@ -258,7 +260,15 @@ This project is released under the MIT License. See the `LICENSE` file (or this 
 If you use this repository in your academic work or projects, you can cite it as:
 
 ```
-Dev, B. K., Kumar, A., & Kanishka. (2026).
-EEG Emotion Recognition System (Version 1.0) [Computer software].
+Dev, B. K. (2328162), Kumar, A. (2328063), Sinha, A. (2306096), Yadav, A. (2328157), Kanishka (2306118), & Srijan (2328235). (2026).
+EEG Emotion Recognition System (Version 1.0) [Computer software]
 GitHub repository: https://github.com/bhanukumardev/EmotionRecognition-EEG_Signal
 ```
+
+---
+
+## Dataset
+
+The EEG data used in this project is sourced from the [EEG Brainwave Dataset - Feeling Emotions](https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions) available on Kaggle.
+
+This dataset contains EEG recordings from multiple subjects experiencing different emotional states, with preprocessing and feature extraction pipelines implemented within this project.
