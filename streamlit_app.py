@@ -51,13 +51,21 @@ elif page == "About":
     st.header("📖 About the Project")
     
     st.subheader("Contributors")
+col1, col2, col3 = st.columns(3)
+    with col1:
+        st.markdown("**Bhanu Kumar Dev** (2328162)\n@bhanukumardev")
+    with col2:
+        st.markdown("**Adarsh Kumar** (2328063)\n@Adarshkumar0509")
+    with col3:
+        st.markdown("**Aman Sinha** (2306096)\n@amansinha11-dev")
+    
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.markdown("**Bhanu Kumar Dev**\n@bhanukumardev")
+        st.markdown("**Ashish Yadav** (2328157)\n@astreladg")
     with col2:
-        st.markdown("**Adarsh Kumar**\n@Adarshkumar0509")
+        st.markdown("**Kanishka** (2306118)\n@catharsis02")
     with col3:
-        st.markdown("**Kanishka**\n@catharsis02")
+        st.markdown("**Srijan** (2328235)\n@srijanisaDev")
     
     st.subheader("License & Citation")
     st.markdown("""
@@ -65,8 +73,7 @@ elif page == "About":
     
     If you use this repository in your academic work, please cite:
     ```
-    Dev, B. K., Kumar, A., & Kanishka. (2026).
-    EEG Emotion Recognition System (Version 1.0) [Computer software].
+Dev, B. K. (2328162), Kumar, A. (2328063), Sinha, A. (2306096), Yadav, A. (2328157), Kanishka (2306118), & Srijan (2328235). (2026).    EEG Emotion Recognition System (Version 1.0) [Computer software].
     GitHub: https://github.com/bhanukumardev/EmotionRecognition-EEG_Signal
     ```
     """)
