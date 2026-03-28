@@ -310,6 +310,6 @@ For issues, questions, or suggestions:
 
 ### ⭐ If you found this project helpful, please star it!
 
-Made with ❤️ by the Team | Last Updated: 2024
+Made with ❤️ by the Team | Last Updated: 2026
 
 </div>
